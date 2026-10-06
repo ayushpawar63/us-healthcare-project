@@ -1,0 +1,7 @@
+# Local data files
+/data/*.csv
+*.pbit
+*.bak
+*.tmp
+*.log
+

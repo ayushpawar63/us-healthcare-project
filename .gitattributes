@@ -1,0 +1,6 @@
+* text=auto
+*.sql text eol=lf
+*.md text eol=lf
+*.csv -text
+*.pbix binary
+
