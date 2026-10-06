@@ -4,6 +4,21 @@ A portfolio project combining a Power BI report with MySQL analysis of healthcar
 
 The embedded data in the Power BI report is synthetic, as confirmed by the project owner. The separate source CSV is not included. No license is provided; the project remains subject to applicable default copyright rules.
 
+## Dashboard screenshots
+
+### Overview
+
+![National Healthcare Performance Dashboard](screenshots/dashboard.png)
+
+### Cost and stay analysis
+
+![Healthcare cost and stay analysis](screenshots/cost-stay-analysis.png)
+
+### Hospitals and medications
+
+![Hospital and medication analysis](screenshots/hospital-medications.png)
+
+
 ## What’s included
 
 - `US_Healthcare_Project.pbix` — Power BI report with four pages: Dashboard, Cost & Stay Analysis, Patient and Condition, and Hospital and Medical Condition.
