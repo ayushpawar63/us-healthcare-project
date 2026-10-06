@@ -14,6 +14,10 @@ The embedded data in the Power BI report is synthetic, as confirmed by the proje
 
 ![Healthcare cost and stay analysis](screenshots/cost-stay-analysis.png)
 
+### Patient and condition
+
+![Patient and condition analysis](screenshots/patient-condition.png)
+
 ### Hospitals and medications
 
 ![Hospital and medication analysis](screenshots/hospital-medications.png)
