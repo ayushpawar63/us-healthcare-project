@@ -4,6 +4,29 @@ A portfolio project combining a Power BI report with MySQL analysis of healthcar
 
 The embedded data in the Power BI report is synthetic, as confirmed by the project owner. The separate source CSV is not included. No license is provided; the project remains subject to applicable default copyright rules.
 
+## Project snapshot
+
+The report summarizes **55,392 patient records** across **May 2019–May 2024**.
+
+| Report metric | Result |
+|---|---:|
+| Total patients | 55,392 |
+| Total billing | $1.42 billion |
+| Average billing | $25,590 |
+| Average length of stay | 15.5 days |
+| Abnormal test results | 54.99% |
+
+### Key findings
+
+- **Most frequent conditions:** Hypertension (13,852), diabetes (13,846), and obesity (12,739).
+- **Hospital volume:** Houston Methodist reported 20,362 patients and Johns Hopkins 11,248; together they represent about 57% of reported volume.
+- **Demographics:** Average age is 52. The report shows 50% female, 40.02% male, and 9.99% non-binary; A+ is the most common blood type (19,385, about 35%).
+- **Cost and stay:** Average billing across the listed conditions ranges from about $25.34K to $25.77K. Average stay ranges from 15.39 to 15.63 days.
+- **Billing by insurer:** Medicare accounts for 49.91% of billing, UnitedHealthcare 30.06%, and Cigna and Aetna about 10% each.
+- **Hospital concentration:** The two largest hospitals account for 57.1% of patient volume.
+
+The SQL cleaning view excludes records with negative billing amounts; the script documents 108 such rows. These are descriptive results from synthetic data and should not be interpreted as real-world clinical outcomes, population statistics, or healthcare cost benchmarks. Figures are reported as displayed in the dashboard, so rounded values may not add exactly.
+
 ## Dashboard screenshots
 
 ### Overview
